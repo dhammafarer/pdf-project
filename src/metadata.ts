@@ -2,8 +2,8 @@ const addressLn1 = "No. 33, Lane 21, Sec.6, Minchuan E. Rd.,";
 const addressLn2 = "Neihu District, Taipei 11494, Taiwan";
 
 export default {
-  company: "Controlnet International",
-  title: "Document Title",
+  company: "Controlnet International Inc.",
+  title: "Certificate of Distributionship",
   subtitle: "Document Title",
   version: "0.1",
   language: "EN",

@@ -1,13 +1,15 @@
 import c from '../config';
 import t from '../content/page1';
+import m from '../metadata';
+import {fonts} from '../../fonts';
 
 import badges from '../components/badges';
 import separator from '../components/separator';
 
 export default [
   {
-    margin: [0,30],
-    columns: [
+    alignment: 'center',
+    stack: [
       {
         width: 90,
         image: t.label.image,
@@ -15,24 +17,57 @@ export default [
       {
         margin: [10,18,0,0],
         stack: [
-          {text: t.label.subtitle.toUpperCase(), style: 'subtitle3'},
-          {text: t.label.title.toUpperCase(), style: 'title3'}
+          {
+            text: m.company.toUpperCase(),
+            style: 'title3',
+            font: fonts.LatoHeavy
+          },
+          {
+            text: m.address,
+            style: 'subtitle3',
+            font: fonts.Lato,
+            lineHeight: 1.2
+          },
+          {
+            text: 'Tel: ' + m.tel,
+            style: 'subtitle3',
+            font: fonts.Lato,
+            lineHeight: 1.2
+          },
         ]
       }
     ]
   },
   {
-    margin: [0, 60],
+    marginTop: 30,
+    alignment: 'right',
+    text: t.date,
+  },
+  {
+    margin: [0,30],
+    text: t.title.toUpperCase(),
+    style: 'title2',
+    alignment: 'center',
+    font: fonts.LatoBlack,
+  },
+  {
+    text: t.paragraphs
+  },
+  {
+    margin: [0,30],
     stack: [
-      {text: t.title.toUpperCase(), style: 'title2', alignment: 'center'},
+      {text: m.company.toLocaleUpperCase()},
       {
-        alignment: 'center',
-        margin: [0, 6],
-        canvas: [
-          {type: 'rect', x: 0, y: 0, w: 200, h: 1, color: c.tertiary}
+        margin: [0,60,0,0],
+        stack: [
+          {
+            margin: [0,10],
+            canvas: [{type: 'line', x1:0,y1:0,x2:200,y2:0, lineWidth: 0.5}]
+          },
+          {text: t.signed, bold: true},
+          {text: t.position},
         ]
       },
-      {text: t.subtitle.toUpperCase(), style: 'subtitle2', alignment: 'center'},
     ]
-  },
+  }
 ];

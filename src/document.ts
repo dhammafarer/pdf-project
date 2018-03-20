@@ -4,12 +4,12 @@ import c from './config';
 import {fonts} from '../fonts';
 
 import page1 from './pages/page1';
-import footer from './footer';
 
 const docDefinition = {
   defaultStyle: {
-    font: fonts.Raleway,
+    font: fonts.Lato,
     fontSize: 12,
+    lineHeight: 1.618,
   },
   pageOrientation: c.pageOrientation,
   pageSize: c.pageSize,
@@ -18,7 +18,6 @@ const docDefinition = {
     page1,
   ],
   styles,
-  footer,
 };
 
 export default docDefinition;
