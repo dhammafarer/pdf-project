@@ -165,8 +165,8 @@ export default {
     bolditalics: './fonts/Lato/Lato-MediumItalic.ttf',
   },
   [fonts.LatoSemiBold]: {
-    normal: './fonts/Lato/Lato-SemiBold.ttf',
-    bold: './fonts/Lato/Lato-SemiBold.ttf',
+    normal: './fonts/Lato/Lato-Semibold.ttf',
+    bold: './fonts/Lato/Lato-Semibold.ttf',
     italics: './fonts/Lato/Lato-SemiboldItalic.ttf',
     bolditalics: './fonts/Lato/Lato-SemiboldItalic.ttf',
   },
