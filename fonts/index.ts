@@ -21,7 +21,7 @@ export const fonts = {
   LatoLight: 'LatoLight',
   LatoMedium: 'LatoMedium',
   LatoHairline: 'LatoHairline',
-  LatoSemiBold: 'LatoSemiBold',
+  LatoSemiBold: 'LatoSemibold',
   Nexa: 'Nexa',
   OpenSans: 'OpenSans',
   OpenSansLight: 'OpenSansLight',
@@ -167,8 +167,8 @@ export default {
   [fonts.LatoSemiBold]: {
     normal: './fonts/Lato/Lato-SemiBold.ttf',
     bold: './fonts/Lato/Lato-SemiBold.ttf',
-    italics: './fonts/Lato/Lato-SemiBoldItalic.ttf',
-    bolditalics: './fonts/Lato/Lato-SemiBoldItalic.ttf',
+    italics: './fonts/Lato/Lato-SemiboldItalic.ttf',
+    bolditalics: './fonts/Lato/Lato-SemiboldItalic.ttf',
   },
   [fonts.LatoThin]: {
     normal: './fonts/Lato/Lato-Thin.ttf',
