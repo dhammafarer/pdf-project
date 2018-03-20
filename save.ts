@@ -24,7 +24,7 @@ function saveFile (x) : void {
 function getFilePath (xs) {
   return S.pipe([
      S.at(2),
-     S.chain(S.match(/.*[^(.pdf)$]/)),
+     S.chain(S.match(/.*[^\.]/)),
      S.map(S.prop('match'))
   ])(xs);
 }
