@@ -1,0 +1,29 @@
+{
+  "name": "pdf-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "xdg-open ./output/output.pdf & npm run build:live",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./index.ts",
+    "save": "./node_modules/.bin/ts-node save.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^9.4.6",
+    "@types/ramda": "^0.25.19",
+    "nodemon": "^1.17.1",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "@types/color": "^3.0.0",
+    "color": "^3.0.0",
+    "jimp": "^0.2.28",
+    "pdfmake": "^0.1.36",
+    "ramda": "^0.25.0",
+    "sanctuary": "^0.14.1"
+  }
+}

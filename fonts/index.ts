@@ -1,0 +1,215 @@
+export const fonts = {
+  Roboto: 'Roboto',
+  RobotoCondensed: 'RobotoCondensed',
+  RobotoLight: 'RobotoLight',
+  RobotoThin: 'RobotoThin',
+  RobotoMedium: 'RobotoMedium',
+  RobotoBlack: 'RobotoBlack',
+  RobotoSlab: 'RobotoSlab',
+  Raleway: 'Raleway',
+  RalewayThin: 'RalewayThin',
+  RalewayBlack: 'RalewayBlack',
+  RalewayLight: 'RalewayLight',
+  RalewayExtraBold: 'RalewayExtraBold',
+  RalewayExtraLight: 'RalewayExtraLight',
+  RalewayMedium: 'RalewayMedium',
+  RalewaySemiBold: 'RalewaySemiBold',
+  Lato: 'Lato',
+  LatoThin: 'LatoThin',
+  LatoBlack: 'LatoBlack',
+  LatoHeavy: 'LatoHeavy',
+  LatoLight: 'LatoLight',
+  LatoMedium: 'LatoMedium',
+  LatoHairline: 'LatoHairline',
+  LatoSemiBold: 'LatoSemiBold',
+  Nexa: 'Nexa',
+  OpenSans: 'OpenSans',
+  OpenSansLight: 'OpenSansLight',
+  OpenSansExtraBold: 'OpenSansExtraBold',
+  OpenSansSemiBold: 'OpenSansSemiBold',
+  Sansation: 'Sansation',
+  SansationLight: 'SansationLight',
+};
+
+export default {
+  [fonts.Roboto]: {
+    normal: './fonts/Roboto-2014/Roboto-Regular.ttf',
+    bold: './fonts/Roboto-2014/Roboto-Bold.ttf',
+    italics: './fonts/Roboto-2014/Roboto-Italic.ttf',
+    bolditalics: './fonts/Roboto-2014/Roboto-BoldItalic.ttf'
+  },
+  [fonts.RobotoCondensed]: {
+    normal: './fonts/Roboto-2014/RobotoCondensed-Regular.ttf',
+    bold: './fonts/Roboto-2014/Roboto-Bold.ttf',
+    italics: './fonts/Roboto-2014/Roboto-MediumItalic.ttf',
+    bolditalics: './fonts/Roboto-2014/RobotoCondensed-BoldItalic.ttf'
+  },
+  [fonts.RobotoLight]: {
+    normal: './fonts/Roboto-2014/Roboto-Light.ttf',
+    bold: './fonts/Roboto-2014/Roboto-Light.ttf',
+    italics: './fonts/Roboto-2014/Roboto-LightItalic.ttf',
+    bolditalics: './fonts/Roboto-2014/Roboto-LightItalic.ttf'
+  },
+  [fonts.RobotoThin]: {
+    normal: './fonts/Roboto-2014/Roboto-Thin.ttf',
+    bold: './fonts/Roboto-2014/Roboto-Thin.ttf',
+    italics: './fonts/Roboto-2014/Roboto-ThinItalic.ttf',
+    bolditalics: './fonts/Roboto-2014/Roboto-ThinItalic.ttf'
+  },
+  [fonts.RobotoMedium]: {
+    normal: './fonts/Roboto-2014/Roboto-Medium.ttf',
+    bold: './fonts/Roboto-2014/Roboto-Medium.ttf',
+    italics: './fonts/Roboto-2014/Roboto-MediumItalic.ttf',
+    bolditalics: './fonts/Roboto-2014/Roboto-MediumItalic.ttf'
+  },
+  [fonts.RobotoBlack]: {
+    normal: './fonts/Roboto-2014/Roboto-Black.ttf',
+    bold: './fonts/Roboto-2014/Roboto-Black.ttf',
+    italics: './fonts/Roboto-2014/Roboto-BlackItalic.ttf',
+    bolditalics: './fonts/Roboto-2014/Roboto-BlackItalic.ttf'
+  },
+  [fonts.RobotoSlab]: {
+    normal: './fonts/Roboto-slab/RobotoSlab-Regular.ttf',
+    bold: './fonts/Roboto-slab/RobotoSlab-Bold.ttf',
+    italics: './fonts/Roboto-slab/RobotoSlab-Regular.ttf',
+    bolditalics: './fonts/Roboto-slab/RobotoSlab-Bold.ttf'
+  },
+  [fonts.Raleway]: {
+    normal: './fonts/Raleway/Raleway-Regular.ttf',
+    bold: './fonts/Raleway/Raleway-Bold.ttf',
+    italics: './fonts/Raleway/Raleway-Italic.ttf',
+    bolditalics: './fonts/Raleway/Raleway-BoldItalic.ttf',
+  },
+  [fonts.RalewayBlack]: {
+    normal: './fonts/Raleway/Raleway-Black.ttf',
+    bold: './fonts/Raleway/Raleway-Black.ttf',
+    italics: './fonts/Raleway/Raleway-BlackItalic.ttf',
+    bolditalics: './fonts/Raleway/Raleway-BlackItalic.ttf',
+  },
+  [fonts.RalewayExtraBold]: {
+    normal: './fonts/Raleway/Raleway-ExtraBold.ttf',
+    bold: './fonts/Raleway/Raleway-ExtraBold.ttf',
+    italics: './fonts/Raleway/Raleway-ExtraBoldItalic.ttf',
+    bolditalics: './fonts/Raleway/Raleway-ExtraBoldItalic.ttf',
+  },
+  [fonts.RalewayExtraLight]: {
+    normal: './fonts/Raleway/Raleway-ExtraLight.ttf',
+    bold: './fonts/Raleway/Raleway-ExtraLight.ttf',
+    italics: './fonts/Raleway/Raleway-ExtraLightItalic.ttf',
+    bolditalics: './fonts/Raleway/Raleway-ExtraLightItalic.ttf',
+  },
+  [fonts.RalewayLight]: {
+    normal: './fonts/Raleway/Raleway-Light.ttf',
+    bold: './fonts/Raleway/Raleway-Light.ttf',
+    italics: './fonts/Raleway/Raleway-LightItalic.ttf',
+    bolditalics: './fonts/Raleway/Raleway-LightItalic.ttf',
+  },
+  [fonts.RalewayMedium]: {
+    normal: './fonts/Raleway/Raleway-Medium.ttf',
+    bold: './fonts/Raleway/Raleway-Medium.ttf',
+    italics: './fonts/Raleway/Raleway-MediumItalic.ttf',
+    bolditalics: './fonts/Raleway/Raleway-MediumItalic.ttf',
+  },
+  [fonts.RalewaySemiBold]: {
+    normal: './fonts/Raleway/Raleway-SemiBold.ttf',
+    bold: './fonts/Raleway/Raleway-SemiBold.ttf',
+    italics: './fonts/Raleway/Raleway-SemiBoldItalic.ttf',
+    bolditalics: './fonts/Raleway/Raleway-SemiBoldItalic.ttf',
+  },
+  [fonts.RalewayThin]: {
+    normal: './fonts/Raleway/Raleway-Thin.ttf',
+    bold: './fonts/Raleway/Raleway-Thin.ttf',
+    italics: './fonts/Raleway/Raleway-ThinItalic.ttf',
+    bolditalics: './fonts/Raleway/Raleway-ThinItalic.ttf',
+  },
+  [fonts.Nexa]: {
+    normal: './fonts/Nexa/nexa-light.ttf',
+    bold: './fonts/Nexa/nexa-bold.ttf',
+    italics: './fonts/Nexa/nexa-light.ttf',
+    bolditalics: './fonts/Nexa/nexa-bold.ttf',
+  },
+  [fonts.Lato]: {
+    normal: './fonts/Lato/Lato-Regular.ttf',
+    bold: './fonts/Lato/Lato-Bold.ttf',
+    italics: './fonts/Lato/Lato-Italic.ttf',
+    bolditalics: './fonts/Lato/Lato-BoldItalic.ttf',
+  },
+  [fonts.LatoBlack]: {
+    normal: './fonts/Lato/Lato-Black.ttf',
+    bold: './fonts/Lato/Lato-Black.ttf',
+    italics: './fonts/Lato/Lato-BlackItalic.ttf',
+    bolditalics: './fonts/Lato/Lato-BlackItalic.ttf',
+  },
+  [fonts.LatoHairline]: {
+    normal: './fonts/Lato/Lato-Hairline.ttf',
+    bold: './fonts/Lato/Lato-Hairline.ttf',
+    italics: './fonts/Lato/Lato-HairlineItalic.ttf',
+    bolditalics: './fonts/Lato/Lato-HairlineItalic.ttf',
+  },
+  [fonts.LatoHeavy]: {
+    normal: './fonts/Lato/Lato-Heavy.ttf',
+    bold: './fonts/Lato/Lato-Heavy.ttf',
+    italics: './fonts/Lato/Lato-HeavyItalic.ttf',
+    bolditalics: './fonts/Lato/Lato-HeavyItalic.ttf',
+  },
+  [fonts.LatoLight]: {
+    normal: './fonts/Lato/Lato-Light.ttf',
+    bold: './fonts/Lato/Lato-Light.ttf',
+    italics: './fonts/Lato/Lato-LightItalic.ttf',
+    bolditalics: './fonts/Lato/Lato-LightItalic.ttf',
+  },
+  [fonts.LatoMedium]: {
+    normal: './fonts/Lato/Lato-Medium.ttf',
+    bold: './fonts/Lato/Lato-Medium.ttf',
+    italics: './fonts/Lato/Lato-MediumItalic.ttf',
+    bolditalics: './fonts/Lato/Lato-MediumItalic.ttf',
+  },
+  [fonts.LatoSemiBold]: {
+    normal: './fonts/Lato/Lato-SemiBold.ttf',
+    bold: './fonts/Lato/Lato-SemiBold.ttf',
+    italics: './fonts/Lato/Lato-SemiBoldItalic.ttf',
+    bolditalics: './fonts/Lato/Lato-SemiBoldItalic.ttf',
+  },
+  [fonts.LatoThin]: {
+    normal: './fonts/Lato/Lato-Thin.ttf',
+    bold: './fonts/Lato/Lato-Thin.ttf',
+    italics: './fonts/Lato/Lato-ThinItalic.ttf',
+    bolditalics: './fonts/Lato/Lato-ThinItalic.ttf',
+  },
+  [fonts.OpenSans]: {
+    normal: './fonts/Open-sans/OpenSans-Regular.ttf',
+    bold: './fonts/Open-sans/OpenSans-Bold.ttf',
+    italics: './fonts/Open-sans/OpenSans-Italic.ttf',
+    bolditalics: './fonts/Open-sans/OpenSans-BoldItalic.ttf',
+  },
+  [fonts.OpenSansExtraBold]: {
+    normal: './fonts/Open-sans/OpenSans-ExtraBold.ttf',
+    bold: './fonts/Open-sans/OpenSans-ExtraBold.ttf',
+    italics: './fonts/Open-sans/OpenSans-ExtraBoldItalic.ttf',
+    bolditalics: './fonts/Open-sans/OpenSans-ExtraBoldItalic.ttf',
+  },
+  [fonts.OpenSansLight]: {
+    normal: './fonts/Open-sans/OpenSans-Light.ttf',
+    bold: './fonts/Open-sans/OpenSans-Light.ttf',
+    italics: './fonts/Open-sans/OpenSans-LightItalic.ttf',
+    bolditalics: './fonts/Open-sans/OpenSans-LightItalic.ttf',
+  },
+  [fonts.OpenSansSemiBold]: {
+    normal: './fonts/Open-sans/OpenSans-SemiBold.ttf',
+    bold: './fonts/Open-sans/OpenSans-SemiBold.ttf',
+    italics: './fonts/Open-sans/OpenSans-SemiBoldItalic.ttf',
+    bolditalics: './fonts/Open-sans/OpenSans-SemiBoldItalic.ttf',
+  },
+  [fonts.Sansation]: {
+    normal: './fonts/Sansation/Sansation_Regular.ttf',
+    bold: './fonts/Sansation/Sansation_Bold.ttf',
+    italics: './fonts/Sansation/Sansation_Italic.ttf',
+    bolditalics: './fonts/Sansation/Sansation_Bold_Italic.ttf',
+  },
+  [fonts.SansationLight]: {
+    normal: './fonts/Sansation/Sansation_Light.ttf',
+    bold: './fonts/Sansation/Sansation_Light.ttf',
+    italics: './fonts/Sansation/Sansation_Light_Italic.ttf',
+    bolditalics: './fonts/Sansation/Sansation_Light_Italic.ttf',
+  },
+};
